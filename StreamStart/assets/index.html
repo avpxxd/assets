@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" class="unsupported-browser loading">
+<head>
+  <meta charset="utf-8">
+  <title>🚀 Take b1nzy to space</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="You're gonna get ratelimited.">
+  <meta name="keywords" content="takeb1nzytospace, take b1nzy to space, b1nzy, b1naryth1ef, binarythief, discord, discordapp, ratelimit, ratelimited, outer-space, space, rocket, rocket ship, meew, meew0, light theme">
+  <meta property="og:title" content="🚀 Take b1nzy to space">
+  <meta property="og:description" content="You're gonna get ratelimited.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://takeb1nzyto.space">
+  <meta property="og:image" name="Image" content="https://takeb1nzyto.space/assets/img/thumb.png"/>
+  <link rel="icon" type="image/png" href="assets/img/thumb.png">
+
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-62WYLNKBR9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-62WYLNKBR9');
+  </script>
+
+  <link rel="stylesheet" href="assets/css/app.min.css">
+</head>
+
+<body>
+  <div class="unsupported-message">
+    <img src="assets/img/b1nzy-avatar-with-background.jpg">
+    <h2>Your browser doesn't support new HTML5 and CSS3 technologies needed to get ratelimited.</h2>
+    <p>Please upgrade your browser for the full ratelimiting experience.</p>
+  </div>
+
+  <div class="loading-cover">
+    <img src="assets/img/b2nzy.png">
+    <h2 id="loading-text"></h2>
+    <p>Loading...</p>
+  </div>
+
+  <div class="page-content">
+    <canvas id="space-backdrop"></canvas>
+
+    <div class="outer-space">
+      <div class="inner">
+        <div class="rocket shake-hard shake-enabled">
+          <img class="light" src="assets/img/rocket-light.gif">
+          <img class="dark" src="assets/img/rocket.gif">
+
+          <div class="porthole"><img src="assets/img/b1nzy.png"></div>
+        </div>
+
+        <div class="nyan">
+          <img class="trail" src="assets/img/nyan-trail.gif">
+          <img class="cat" src="assets/img/nyan-cat.gif">
+        </div>
+      </div>
+    </div>
+
+    <div class="information">
+      <h1>You've been ratelimited for <span id="ratelimited-time">0</span> seconds.</h1>
+      <h3 id="audio-info">Playing <a id="song" href="#" target="_blank">nothing, yet!</a></h3>
+      <h3 id="audio-autoplay">Click anywhere on the screen to start playing music</h3>
+
+      <p>
+        <a id="tweet-intent" href="javascript:void(0)" target="_blank">Tweet</a>
+        <span id="toot">
+            &nbsp;-&nbsp;
+            <a id="toot-share" href="javascript:void(0)">Toot</a>
+        </span>
+        <span id="visualizer">
+          &nbsp;-&nbsp;
+          <a id="visualizer-toggle" href="javascript:void(0)" title="Press v">Visualize</a>
+        </span>
+        <span id="skippable">
+          &nbsp;-&nbsp;
+          <a id="skip-song" href="javascript:void(0)" title="Press s">Skip song</a>
+        </span>
+      </p>
+
+      <form id="toot-form" action="javascript:void(0)">
+        Mastodon Instance: <input id="toot-instance" type="text"/> <button type="submit">TOOT!</button>
+      </form>
+    </div>
+
+    <a id="meew-mode-button" href="javascript:void(0)" title="Press m">meew0 mode</a>
+    <a id="light-mode-button" href="javascript:void(0)" title="Press l">toggle light theme</a>
+    <a id="nyan-mode-button" href="javascript:void(0)" title="Press n">toggle nyan cat mode</a>
+  </div>
+
+  <audio id="audio" style="display: none;" src=""></audio>
+
+  <script src="assets/js/app.min.js"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816" integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw==" data-cf-beacon='{"rayId":"7e27c4727eefe273","version":"2023.4.0","r":1,"token":"8b6d93c3e34245be9f89b4d8d9dd8bbc","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>
